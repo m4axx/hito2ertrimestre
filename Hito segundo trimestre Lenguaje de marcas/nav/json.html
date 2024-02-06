@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog de Programación</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <style>
+        .colizq:hover {
+            cursor: pointer;
+        }
+    </style>
+    
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+    <div class="mx-auto">
+        <a class="navbar-brand" href="#">
+            <img src="Multimedia/image2-removebg-preview.png" width="55" height="40" alt="">
+            Tu Blog de Programación [ByMax]
+        </a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="xml.html">XML</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <article>
+                <h2>Bienvenido</h2>
+                <p>Gracias por acceder a nuestra web, si estás buscando una página para aprender 
+                    un poco de XML y JSON, estás en el lugar correcto. En primer
+                    lugar nos presentamos, somos Informáticos tipo C y estamos aquí para contarte 
+                    los principios de XML y JSON. Si tienes alguna duda, estamos para ayudarte.
+                </p>
+            </article>
+            <article>
+                <h2>Artículo XML</h2>
+                <p>
+                    Este artículo aborda la historia y normativas del lenguaje XML, desde su origen en la década de 1970 
+                    como respuesta a la necesidad de gestionar grandes cantidades de información. Se destaca la evolución 
+                    desde GML hasta la estandarización en SGML y la posterior creación de HTML para la web. Sin embargo, 
+                    las limitaciones de HTML condujeron al desarrollo de XML por el W3C en 1998, diseñado para superar las 
+                    deficiencias del primero.
+                    <br><br>
+                    Las normas de uso y sintaxis de XML se detallan, haciendo hincapié en la sensibilidad de 
+                    mayúsculas y minúsculas, los caracteres permitidos, el primer carácter del nombre, y las restricciones antes 
+                    del nombre de una etiqueta.
+                    <br><br>
+                    Además, se exploran las aplicaciones prácticas de XML en el ámbito laboral, 
+                    destacando su papel en la transferencia de datos entre sistemas, el desarrollo 
+                    de aplicaciones web dinámicas, la documentación técnica y su compatibilidad como 
+                    tipo de datos en la programación.</p>
+            </article>
+            <article>
+                <h2>Artículo JSON</h2>
+                <p>
+                    En este articulo, nos sumergiremos en la historia y aplicaciones de JSON (JavaScript Object Notation), nos adentramos en 
+                    el fascinante mundo de un formato de intercambio de datos fundamental en el desarrollo web. Conoceremos 
+                    cómo JSON surgió como respuesta a las limitaciones percibidas de XML, convirtiéndose rápidamente en una 
+                    alternativa ágil y fácil de usar en la transmisión de información entre sitios web y servidores.
+                    <br><br>
+                    Exploraremos los primeros días de JSON en la década de 2000, cuando se desarrolló como una solución 
+                    a la complejidad de XML. Descubriremos cómo JSON, al basarse en un subconjunto de JavaScript, se volvió 
+                    familiar para los desarrolladore
+                </p>
+            </article>
+        </div>
+
+        <div class="col-md-5">
+            <h2 class="col22" data-toggle="modal" data-target="#seccion1Modal">Categorias</h2>
+            <h2 class="col22" data-toggle="modal" data-target="#seccion2Modal">Ultimos Post</h2>
+            <h2 class="col22" data-toggle="modal" data-target="#seccion3Modal">Redes Sociales</h2>
+        </div>
+    </div>
+</div>
+
+<!-- Modals -->
+<div class="modal fade" id="seccion1Modal" tabindex="-1" role="dialog" aria-labelledby="seccion1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="seccion1ModalLabel">Categoría 1</h5>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body">
+                Contenido de la Categoría 1
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="seccion2Modal" tabindex="-1" role="dialog" aria-labelledby="seccion2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="seccion2ModalLabel">Ultimos Post</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Contenido de la Categoría 2
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="seccion3Modal" tabindex="-1" role="dialog" aria-labelledby="seccion3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="seccion3ModalLabel">Redes sociales</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Contenido de la Categoría 3
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts de Bootstrap y jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

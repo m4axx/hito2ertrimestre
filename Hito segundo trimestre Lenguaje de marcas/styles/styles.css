@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f0f0; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+.navbar {
+    background-color: #7f8fa6; /* Color de fondo de la barra de navegación */
+}
+
+.navbar-brand {
+    color: #fff; /* Color del texto del logo */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Color del texto de los enlaces de navegación */
+}
+
+
+
+.colizq:hover {
+    cursor: pointer;
+    color: #7f8fa6; /* Color del texto al pasar el ratón */
+    
+        cursor: pointer;
+    
+}
+
+.container {
+    background-color: #fff; /* Color de fondo del contenedor principal */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Margen superior e inferior automático y centrado horizontal */
+}
+
+.modal-content {
+    background-color: #f0f0f0; /* Color de fondo del modal */
+    color: #333; /* Color del texto del modal */
+}
+
+.modal-header {
+    background-color: #7f8fa6; /* Color de fondo del encabezado del modal */
+    color: #fff; /* Color del texto del encabezado del modal */
+}
+.modal-title:hover {
+    cursor: pointer; /* Establece el cursor como un puntero al pasar el cursor sobre el título */
+}
+
+.col22 {
+    font-size: 13px;
+    cursor: pointer; /* Tamaño de fuente más pequeño para el elemento h2 con la clase col22 */
+}
+
+.categorias-dropdown {
+    font-size: 14px; /* Tamaño de fuente más pequeño para las categorías */
+}
