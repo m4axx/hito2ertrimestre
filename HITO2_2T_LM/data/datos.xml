@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webPedidos>
+
+  <año año="2021">
+    <trimestre trimestre="1">
+  <pedido numero="1">
+    <cliente>
+      <nombre>Pedro</nombre>
+      <apellidos>Fernández López</apellidos>
+      <telefono>654987321</telefono>
+      <direccion>
+        <calle>Calle Goya</calle>
+        <ciudad>Madrid</ciudad>
+        <codigoPostal>28001</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>pedro@hotmail.com</correo>
+      <fechaInclusion>2020-12-15</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>002</numeroPedido>
+      <fechaCompra>2021-03-05</fechaCompra>
+      <fechaEntrega>2021-03-15</fechaEntrega>
+      <totalFactura>59.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Teclado HP</nombre>
+          <referencia>HP002</referencia>
+          <precio>25.00</precio>
+          <unidades>2</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+
+    <pedido numero="2">
+    <cliente>
+      <nombre>Luisa</nombre>
+      <apellidos>González Martínez</apellidos>
+      <telefono>689741236</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Madrid</ciudad>
+        <codigoPostal>28001</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>luisa@gmail.com</correo>
+      <fechaInclusion>2021-02-05</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>005</numeroPedido>
+      <fechaCompra>2021-08-10</fechaCompra>
+      <fechaEntrega>2021-08-20</fechaEntrega>
+      <totalFactura>55.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Ratón HP</nombre>
+          <referencia>HP003</referencia>
+          <precio>50.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+</pedido>
+
+<pedido numero="3">
+    <cliente>
+      <nombre>Pablo</nombre>
+      <apellidos>Rodríguez Martín</apellidos>
+      <telefono>611223344</telefono>
+      <direccion>
+        <calle>Calle Alameda</calle>
+        <ciudad>Sevilla</ciudad>
+        <codigoPostal>41001</codigoPostal>
+        <provincia>Sevilla</provincia>
+      </direccion>
+      <correo>pablo@hotmail.com</correo>
+      <fechaInclusion>2021-03-20</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>006</numeroPedido>
+      <fechaCompra>2021-09-05</fechaCompra>
+      <fechaEntrega>2021-09-15</fechaEntrega>
+      <totalFactura>90.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Monitor Samsung</nombre>
+          <referencia>SAM005</referencia>
+          <precio>90.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+</pedido>
+
+<pedido numero="4">
+    <cliente>
+      <nombre>Elena</nombre>
+      <apellidos>García Pérez</apellidos>
+      <telefono>654987321</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Barcelona</ciudad>
+        <codigoPostal>08001</codigoPostal>
+        <provincia>Barcelona</provincia>
+      </direccion>
+      <correo>elena@gmail.com</correo>
+      <fechaInclusion>2021-04-15</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>007</numeroPedido>
+      <fechaCompra>2021-10-10</fechaCompra>
+      <fechaEntrega>2021-10-20</fechaEntrega>
+      <totalFactura>100.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Auriculares Sony</nombre>
+          <referencia>SONY006</referencia>
+          <precio>100.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+</pedido>
+
+
+    <pedido numero="5">
+  <cliente>
+    <nombre>Maria</nombre>
+    <apellidos>García Pérez</apellidos>
+    <telefono>666665555</telefono>
+    <direccion>
+      <calle>Calle Valencia</calle>
+      <ciudad>Valencia</ciudad>
+      <codigoPostal>46002</codigoPostal>
+      <provincia>Valencia</provincia>
+    </direccion>
+    <correo>maria@gmail.com</correo>
+    <fechaInclusion>2021-04-10</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>011</numeroPedido>
+    <fechaCompra>2021-08-20</fechaCompra>
+    <fechaEntrega>2021-09-01</fechaEntrega>
+    <totalFactura>150.00</totalFactura>
+    <productos>
+      <producto>
+        <nombre>Altavoces Sony</nombre>
+        <referencia>SONY008</referencia>
+        <precio>150.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<pedido numero="6">
+  <cliente>
+    <nombre>Javier</nombre>
+    <apellidos>Ruiz López</apellidos>
+    <telefono>644442222</telefono>
+    <direccion>
+      <calle>Calle Granada</calle>
+      <ciudad>Granada</ciudad>
+      <codigoPostal>18002</codigoPostal>
+      <provincia>Granada</provincia>
+    </direccion>
+    <correo>javier@hotmail.com</correo>
+    <fechaInclusion>2021-05-20</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>012</numeroPedido>
+    <fechaCompra>2021-09-25</fechaCompra>
+    <fechaEntrega>2021-10-05</fechaEntrega>
+    <totalFactura>35.00</totalFactura>
+    <productos>
+      <producto>
+        <nombre>Ratón inalámbrico</nombre>
+        <referencia>LOG012</referencia>
+        <precio>35.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<pedido numero="7">
+  <cliente>
+    <nombre>Carmen</nombre>
+    <apellidos>López Sánchez</apellidos>
+    <telefono>611112222</telefono>
+    <direccion>
+      <calle>Calle Mayor</calle>
+      <ciudad>Madrid</ciudad>
+      <codigoPostal>28004</codigoPostal>
+      <provincia>Madrid</provincia>
+    </direccion>
+    <correo>carmen@yahoo.com</correo>
+    <fechaInclusion>2021-06-25</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>013</numeroPedido>
+    <fechaCompra>2021-10-10</fechaCompra>
+    <fechaEntrega>2021-10-20</fechaEntrega>
+    <totalFactura>80.00</totalFactura>
+    <productos>
+      <producto>
+        <nombre>Disco Duro Externo</nombre>
+        <referencia>WD002</referencia>
+        <precio>80.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<pedido numero="8">
+  <cliente>
+    <nombre>Miguel</nombre>
+    <apellidos>Gómez Rodríguez</apellidos>
+    <telefono>633331111</telefono>
+    <direccion>
+      <calle>Calle Alameda</calle>
+      <ciudad>Sevilla</ciudad>
+      <codigoPostal>41003</codigoPostal>
+      <provincia>Sevilla</provincia>
+    </direccion>
+    <correo>miguel@gmail.com</correo>
+    <fechaInclusion>2021-07-30</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>014</numeroPedido>
+    <fechaCompra>2021-11-15</fechaCompra>
+    <fechaEntrega>2021-11-25</fechaEntrega>
+    <totalFactura>95.00</totalFactura>
+    <productos>
+      <producto>
+        <nombre>Memoria RAM</nombre>
+        <referencia>RAM007</referencia>
+        <precio>95.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<pedido numero="9">
+  <cliente>
+    <nombre>Sofía</nombre>
+    <apellidos>Fernández Martínez</apellidos>
+    <telefono>655553333</telefono>
+    <direccion>
+      <calle>Calle Gran Vía</calle>
+      <ciudad>Barcelona</ciudad>
+      <codigoPostal>08003</codigoPostal>
+      <provincia>Barcelona</provincia>
+    </direccion>
+    <correo>sofia@hotmail.com</correo>
+    <fechaInclusion>2021-08-25</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>015</numeroPedido>
+    <fechaCompra>2021-12-05</fechaCompra>
+    <fechaEntrega>2021-12-15</fechaEntrega>
+    <totalFactura>125.00</totalFactura>
+    <productos>
+      <producto>
+        <nombre>Tableta gráfica</nombre>
+        <referencia>GRF009</referencia>
+        <precio>125.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<pedido numero="10">
+  <cliente>
+    <nombre>Pilar</nombre>
+    <apellidos>Rodríguez Sánchez</apellidos>
+    <telefono>622221111</telefono>
+    <direccion>
+      <calle>Calle Valencia</calle>
+      <ciudad>Valencia</ciudad>
+      <codigoPostal>46003</codigoPostal>
+      <provincia>Valencia</provincia>
+    </direccion>
+    <correo>pilar@yahoo.com</correo>
+    <fechaInclusion>2021-09-10</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>016</numeroPedido>
+    <fechaCompra>2022-01-20</fechaCompra>
+    <fechaEntrega>2022-01-30</fechaEntrega>
+    <totalFactura>55.00</totalFactura>
+    <productos>
+      <producto>
+        <nombre>Router Wi-Fi</nombre>
+        <referencia>WIFI003</referencia>
+        <precio>55.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+</trimestre>
+    <trimestre trimestre="2">
+
+  <pedido numero="11">
+    <cliente>
+      <nombre>Pedro</nombre>
+      <apellidos>López Martínez</apellidos>
+      <telefono>666666666</telefono>
+      <direccion>
+        <calle>Calle Granada</calle>
+        <ciudad>Granada</ciudad>
+        <codigoPostal>18003</codigoPostal>
+        <provincia>Granada</provincia>
+      </direccion>
+      <correo>pedro@gmail.com</correo>
+      <fechaInclusion>2021-04-01</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>021</numeroPedido>
+      <fechaCompra>2021-04-05</fechaCompra>
+      <fechaEntrega>2021-04-15</fechaEntrega>
+      <totalFactura>90.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Monitor LG</nombre>
+          <referencia>LG001</referencia>
+          <precio>90.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="12">
+    <cliente>
+      <nombre>María</nombre>
+      <apellidos>Gómez Sánchez</apellidos>
+      <telefono>678452314</telefono>
+      <direccion>
+        <calle>Calle Serrano</calle>
+        <ciudad>Madrid</ciudad>
+        <codigoPostal>28001</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>maria@gmail.com</correo>
+      <fechaInclusion>2021-04-02</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>022</numeroPedido>
+      <fechaCompra>2021-05-10</fechaCompra>
+      <fechaEntrega>2021-05-20</fechaEntrega>
+      <totalFactura>120.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Impresora Brother</nombre>
+          <referencia>BRO002</referencia>
+          <precio>120.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="13">
+    <cliente>
+      <nombre>Carlos</nombre>
+      <apellidos>Martínez González</apellidos>
+      <telefono>645231478</telefono>
+      <direccion>
+        <calle>Calle Alcalá</calle>
+        <ciudad>Madrid</ciudad>
+        <codigoPostal>28002</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>carlos@hotmail.com</correo>
+      <fechaInclusion>2021-04-03</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>023</numeroPedido>
+      <fechaCompra>2021-06-15</fechaCompra>
+      <fechaEntrega>2021-06-25</fechaEntrega>
+      <totalFactura>70.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Ratón HP</nombre>
+          <referencia>HP012</referencia>
+          <precio>35.00</precio>
+          <unidades>2</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="14">
+    <cliente>
+      <nombre>Ana</nombre>
+      <apellidos>Fernández López</apellidos>
+      <telefono>666555444</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Barcelona</ciudad>
+        <codigoPostal>08003</codigoPostal>
+        <provincia>Barcelona</provincia>
+      </direccion>
+      <correo>ana@yahoo.com</correo>
+      <fechaInclusion>2021-04-04</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>024</numeroPedido>
+      <fechaCompra>2021-07-10</fechaCompra>
+      <fechaEntrega>2021-07-20</fechaEntrega>
+      <totalFactura>50.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Teclado Gaming</nombre>
+          <referencia>GAM015</referencia>
+          <precio>50.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="15">
+    <cliente>
+      <nombre>David</nombre>
+      <apellidos>Gómez Pérez</apellidos>
+      <telefono>611223344</telefono>
+      <direccion>
+        <calle>Calle Gran Vía</calle>
+        <ciudad>Sevilla</ciudad>
+        <codigoPostal>41001</codigoPostal>
+        <provincia>Sevilla</provincia>
+      </direccion>
+      <correo>david@gmail.com</correo>
+      <fechaInclusion>2021-04-05</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>025</numeroPedido>
+      <fechaCompra>2021-08-05</fechaCompra>
+      <trimestre trimestre="2">
+        <pedido numero="16">
+          <cliente>
+            <nombre>Sofía</nombre>
+            <apellidos>García Martínez</apellidos>
+            <telefono>688889999</telefono>
+            <direccion>
+              <calle>Calle Mayor</calle>
+              <ciudad>Barcelona</ciudad>
+              <codigoPostal>08004</codigoPostal>
+              <provincia>Barcelona</provincia>
+            </direccion>
+            <correo>sofia@hotmail.com</correo>
+            <fechaInclusion>2021-04-06</fechaInclusion>
+          </cliente>
+          <detallePedido>
+            <numeroPedido>026</numeroPedido>
+            <fechaCompra>2021-09-12</fechaCompra>
+            <fechaEntrega>2021-09-22</fechaEntrega>
+            <totalFactura>120.00</totalFactura>
+            <productos>
+              <producto>
+                <nombre>Altavoces Bluetooth</nombre>
+                <referencia>BT016</referencia>
+                <precio>120.00</precio>
+                <unidades>1</unidades>
+              </producto>
+            </productos>
+          </detallePedido>
+        </pedido>
+
+        <pedido numero="17">
+          <cliente>
+            <nombre>Javier</nombre>
+            <apellidos>López García</apellidos>
+            <telefono>655556666</telefono>
+            <direccion>
+              <calle>Calle Real</calle>
+              <ciudad>Valencia</ciudad>
+              <codigoPostal>46002</codigoPostal>
+              <provincia>Valencia</provincia>
+            </direccion>
+            <correo>javier@gmail.com</correo>
+            <fechaInclusion>2021-04-07</fechaInclusion>
+          </cliente>
+          <detallePedido>
+            <numeroPedido>027</numeroPedido>
+            <fechaCompra>2021-10-18</fechaCompra>
+            <fechaEntrega>2021-10-28</fechaEntrega>
+            <totalFactura>45.00</totalFactura>
+            <productos>
+              <producto>
+                <nombre>Webcam Logitech</nombre>
+                <referencia>LOG018</referencia>
+                <precio>45.00</precio>
+                <unidades>1</unidades>
+              </producto>
+            </productos>
+          </detallePedido>
+        </pedido>
+
+        <pedido numero="18">
+          <cliente>
+            <nombre>Paula</nombre>
+            <apellidos>García Fernández</apellidos>
+            <telefono>622223333</telefono>
+            <direccion>
+              <calle>Calle Mayor</calle>
+              <ciudad>Madrid</ciudad>
+              <codigoPostal>28004</codigoPostal>
+              <provincia>Madrid</provincia>
+            </direccion>
+            <correo>paula@yahoo.com</correo>
+            <fechaInclusion>2021-04-08</fechaInclusion>
+          </cliente>
+          <detallePedido>
+            <numeroPedido>028</numeroPedido>
+            <fechaCompra>2021-11-05</fechaCompra>
+            <fechaEntrega>2021-11-15</fechaEntrega>
+            <totalFactura>60.00</totalFactura>
+            <productos>
+              <producto>
+                <nombre>Teclado inalámbrico</nombre>
+                <referencia>LOG019</referencia>
+                <precio>60.00</precio>
+                <unidades>1</unidades>
+              </producto>
+            </productos>
+          </detallePedido>
+        </pedido>
+
+        <pedido numero="19">
+          <cliente>
+            <nombre>Luis</nombre>
+            <apellidos>Martínez Sánchez</apellidos>
+            <telefono>633334444</telefono>
+            <direccion>
+              <calle>Calle Gran Vía</calle>
+              <ciudad>Barcelona</ciudad>
+              <codigoPostal>08005</codigoPostal>
+              <provincia>Barcelona</provincia>
+            </direccion>
+            <correo>luis@hotmail.com</correo>
+            <fechaInclusion>2021-04-09</fechaInclusion>
+          </cliente>
+          <detallePedido>
+            <numeroPedido>029</numeroPedido>
+            <fechaCompra>2021-12-10</fechaCompra>
+            <fechaEntrega>2021-12-20</fechaEntrega>
+            <totalFactura>85.00</totalFactura>
+            <productos>
+              <producto>
+                <nombre>Auriculares Sony</nombre>
+                <referencia>SNY020</referencia>
+                <precio>85.00</precio>
+                <unidades>1</unidades>
+              </producto>
+            </productos>
+          </detallePedido>
+        </pedido>
+
+        <pedido numero="20">
+          <cliente>
+            <nombre>Lucía</nombre>
+            <apellidos>Rodríguez Pérez</apellidos>
+            <telefono>644445555</telefono>
+            <direccion>
+              <calle>Calle Sevilla</calle>
+              <ciudad>Sevilla</ciudad>
+              <codigoPostal>41003</codigoPostal>
+              <provincia>Sevilla</provincia>
+            </direccion>
+            <correo>lucia@gmail.com</correo>
+            <fechaInclusion>2021-04-10</fechaInclusion>
+          </cliente>
+          <detallePedido>
+            <numeroPedido>030</numeroPedido>
+            <fechaCompra>2022-01-15</fechaCompra>
+            <fechaEntrega>2022-01-25</fechaEntrega>
+            <totalFactura>75.00</totalFactura>
+            <productos>
+              <producto>
+                <nombre>Mouse inalámbrico</nombre>
+                <referencia>MS021</referencia>
+                <precio>75.00</precio>
+                <unidades>1</unidades>
+              </producto>
+            </productos>
+          </detallePedido>
+        </pedido>
+      </trimestre>
+        <codigoPostal>28966</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>juan@gmail.com</correo>
+      <fechaInclusion>2021-07-15</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>026</numeroPedido>
+      <fechaCompra>2021-12-12</fechaCompra>
+      <fechaEntrega>2021-12-22</fechaEntrega>
+      <totalFactura>120.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Disco Duro SSD</nombre>
+          <referencia>SSD006</referencia>
+          <precio>120.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="27">
+    <cliente>
+      <nombre>Martina</nombre>
+      <apellidos>López García</apellidos>
+      <telefono>655556677</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Valencia</ciudad>
+        <codigoPostal>46002</codigoPostal>
+        <provincia>Valencia</provincia>
+      </direccion>
+      <correo>martina@gmail.com</correo>
+      <fechaInclusion>2021-07-20</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>027</numeroPedido>
+      <fechaCompra>2022-01-18</fechaCompra>
+      <fechaEntrega>2022-01-28</fechaEntrega>
+      <totalFactura>45.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Ratón HP</nombre>
+          <referencia>HP004</referencia>
+          <precio>45.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="28">
+    <cliente>
+      <nombre>Ana</nombre>
+      <apellidos>García Fernández</apellidos>
+      <telefono>622223333</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Madrid</ciudad>
+        <codigoPostal>28001</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>ana@yahoo.com</correo>
+      <fechaInclusion>2021-09-25</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>028</numeroPedido>
+      <fechaCompra>2022-02-05</fechaCompra>
+      <fechaEntrega>2022-02-15</fechaEntrega>
+      <totalFactura>60.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Teclado inalámbrico</nombre>
+          <referencia>LOG029</referencia>
+          <precio>60.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="29">
+    <cliente>
+      <nombre>Daniel</nombre>
+      <apellidos>Martínez Sánchez</apellidos>
+      <telefono>633334444</telefono>
+      <direccion>
+        <calle>Calle Gran Vía</calle>
+        <ciudad>Barcelona</ciudad>
+        <codigoPostal>08003</codigoPostal>
+        <provincia>Barcelona</provincia>
+      </direccion>
+      <correo>daniel@hotmail.com</correo>
+      <fechaInclusion>2021-09-30</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>029</numeroPedido>
+      <fechaCompra>2022-03-10</fechaCompra>
+      <fechaEntrega>2022-03-20</fechaEntrega>
+      <totalFactura>85.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Auriculares Sony</nombre>
+          <referencia>SNY030</referencia>
+          <precio>85.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="30">
+    <cliente>
+      <nombre>Laura</nombre>
+      <apellidos>Martínez González</apellidos>
+      <telefono>688889999</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Barcelona</ciudad>
+        <codigoPostal>08004</codigoPostal>
+        <provincia>Barcelona</provincia>
+      </direccion>
+      <correo>laura@hotmail.com</correo>
+      <fechaInclusion>2021-07-05</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>030</numeroPedido>
+      <fechaCompra>2022-04-15</fechaCompra>
+      <fechaEntrega>2022-04-25</fechaEntrega>
+      <totalFactura>75.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Mouse inalámbrico</nombre>
+          <referencia>MS031</referencia>
+          <precio>75.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+    </trimestre>
+
+    <trimestre trimestre="4">
+  <pedido numero="32">
+    <cliente>
+      <nombre>Juan</nombre>
+      <apellidos>Gómez Rodríguez</apellidos>
+      <telefono>678452314</telefono>
+      <direccion>
+        <calle>Calle Machado</calle>
+        <ciudad>Alcorcón</ciudad>
+        <codigoPostal>28966</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>juan@gmail.com</correo>
+      <fechaInclusion>2021-01-01</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>032</numeroPedido>
+      <fechaCompra>2021-11-10</fechaCompra>
+      <fechaEntrega>2021-11-20</fechaEntrega>
+      <totalFactura>120.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Teclado Razer</nombre>
+          <referencia>RZR033</referencia>
+          <precio>120.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="33">
+    <cliente>
+      <nombre>Juan</nombre>
+      <apellidos>Gómez Rodríguez</apellidos>
+      <telefono>678452314</telefono>
+      <direccion>
+        <calle>Calle Machado</calle>
+        <ciudad>Alcorcón</ciudad>
+        <codigoPostal>28966</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>juan@gmail.com</correo>
+      <fechaInclusion>2021-01-01</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>033</numeroPedido>
+      <fechaCompra>2021-12-15</fechaCompra>
+      <fechaEntrega>2021-12-25</fechaEntrega>
+      <totalFactura>70.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Ratón SteelSeries</nombre>
+          <referencia>SS034</referencia>
+          <precio>35.00</precio>
+          <unidades>2</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="34">
+    <cliente>
+      <nombre>Marta</nombre>
+      <apellidos>Ruiz Sánchez</apellidos>
+      <telefono>654789321</telefono>
+      <direccion>
+        <calle>Calle Granada</calle>
+        <ciudad>Granada</ciudad>
+        <codigoPostal>18001</codigoPostal>
+        <provincia>Granada</provincia>
+      </direccion>
+      <correo>marta@hotmail.com</correo>
+      <fechaInclusion>2021-02-15</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>034</numeroPedido>
+      <fechaCompra>2022-01-10</fechaCompra>
+      <fechaEntrega>2022-01-20</fechaEntrega>
+      <totalFactura>50.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Altavoces Logitech</nombre>
+          <referencia>LOG035</referencia>
+          <precio>50.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="35">
+    <cliente>
+      <nombre>Pablo</nombre>
+      <apellidos>Rodríguez García</apellidos>
+      <telefono>644334455</telefono>
+      <direccion>
+        <calle>Calle Alameda</calle>
+        <ciudad>Sevilla</ciudad>
+        <codigoPostal>41003</codigoPostal>
+        <provincia>Sevilla</provincia>
+      </direccion>
+      <correo>pablo@yahoo.com</correo>
+      <fechaInclusion>2022-02-10</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>035</numeroPedido>
+      <fechaCompra>2022-02-05</fechaCompra>
+      <fechaEntrega>2022-02-15</fechaEntrega>
+      <totalFactura>80.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Impresora Canon</nombre>
+          <referencia>CAN036</referencia>
+          <precio>80.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="36">
+    <cliente>
+      <nombre>Luisa</nombre>
+      <apellidos>Pérez Martínez</apellidos>
+      <telefono>677112233</telefono>
+      <direccion>
+        <calle>Calle Sol</calle>
+        <ciudad>Madrid</ciudad>
+        <codigoPostal>28002</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>luisa@gmail.com</correo>
+      <fechaInclusion>2022-01-20</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>036</numeroPedido>
+      <fechaCompra>2022-03-12</fechaCompra>
+      <fechaEntrega>2022-03-22</fechaEntrega>
+      <totalFactura>120.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Disco Duro SSD</nombre>
+          <referencia>SSD037</referencia>
+          <precio>120.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="37">
+    <cliente>
+      <nombre>Martina</nombre>
+      <apellidos>López García</apellidos>
+      <telefono>655556677</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Valencia</ciudad>
+        <codigoPostal>46002</codigoPostal>
+        <provincia>Valencia</provincia>
+      </direccion>
+      <correo>martina@gmail.com</correo>
+      <fechaInclusion>2022-03-15</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>037</numeroPedido>
+      <fechaCompra>2022-04-18</fechaCompra>
+      <fechaEntrega>2022-04-28</fechaEntrega>
+      <totalFactura>45.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Ratón HP</nombre>
+          <referencia>HP038</referencia>
+          <precio>45.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="38">
+    <cliente>
+      <nombre>Ana</nombre>
+      <apellidos>García Fernández</apellidos>
+      <telefono>622223333</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Madrid</ciudad>
+        <codigoPostal>28001</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correo>ana@yahoo.com</correo>
+      <fechaInclusion>2021-06-20</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>038</numeroPedido>
+      <fechaCompra>2022-05-05</fechaCompra>
+      <fechaEntrega>2022-05-15</fechaEntrega>
+      <totalFactura>60.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Teclado inalámbrico</nombre>
+          <referencia>LOG039</referencia>
+          <precio>60.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="39">
+    <cliente>
+      <nombre>Daniel</nombre>
+      <apellidos>Martínez Sánchez</apellidos>
+      <telefono>633334444</telefono>
+      <direccion>
+        <calle>Calle Gran Vía</calle>
+        <ciudad>Barcelona</ciudad>
+        <codigoPostal>08003</codigoPostal>
+        <provincia>Barcelona</provincia>
+      </direccion>
+      <correo>daniel@hotmail.com</correo>
+      <fechaInclusion>2022-04-25</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>039</numeroPedido>
+      <fechaCompra>2022-06-10</fechaCompra>
+      <fechaEntrega>2022-06-20</fechaEntrega>
+      <totalFactura>85.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Auriculares Sony</nombre>
+          <referencia>SNY040</referencia>
+          <precio>85.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <pedido numero="40">
+    <cliente>
+      <nombre>Laura</nombre>
+      <apellidos>Martínez González</apellidos>
+      <telefono>688889999</telefono>
+      <direccion>
+        <calle>Calle Mayor</calle>
+        <ciudad>Barcelona</ciudad>
+        <codigoPostal>08004</codigoPostal>
+        <provincia>Barcelona</provincia>
+      </direccion>
+      <correo>laura@hotmail.com</correo>
+      <fechaInclusion>2021-04-05</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>040</numeroPedido>
+      <fechaCompra>2022-07-15</fechaCompra>
+      <fechaEntrega>2022-07-25</fechaEntrega>
+      <totalFactura>75.00</totalFactura>
+      <productos>
+        <producto>
+          <nombre>Mouse inalámbrico</nombre>
+          <referencia>MS041</referencia>
+          <precio>75.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+    </trimestre>
+  </año>
+ 
